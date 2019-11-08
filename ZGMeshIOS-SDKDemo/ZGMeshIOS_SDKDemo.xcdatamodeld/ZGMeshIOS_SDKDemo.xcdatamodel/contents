@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="CDDeviceGroupRelationship" representedClassName="CDDeviceGroupRelationship" syncable="YES" codeGenerationType="class">
+        <attribute name="createDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deviceID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="groupID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastUpdateDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="CDMeshDevice" representedClassName="CDMeshDevice" syncable="YES" codeGenerationType="class">
+        <attribute name="createDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="deviceType" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="displayName" optional="YES" attributeType="String"/>
+        <attribute name="lastUpdateDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="macAddress" optional="YES" attributeType="String"/>
+        <attribute name="meshAddress" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="toDelete" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="uniID" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CDMeshGroup" representedClassName="CDMeshGroup" syncable="YES" codeGenerationType="class">
+        <attribute name="createDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="displayName" optional="YES" attributeType="String"/>
+        <attribute name="groupType" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastUpdateDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="meshAddress" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="toDelete" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="uniID" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CDMeshPlace" representedClassName="CDMeshPlace" syncable="YES" codeGenerationType="class">
+        <attribute name="createDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="displayName" optional="YES" attributeType="String"/>
+        <attribute name="lastUpdateDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="maxDeviceID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="maxGroupID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meshKey" optional="YES" attributeType="String"/>
+        <attribute name="meshLTK" optional="YES" attributeType="String"/>
+        <attribute name="meshPassword" optional="YES" attributeType="String"/>
+        <attribute name="uniID" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CDDeviceGroupRelationship" positionX="-54" positionY="63" width="128" height="103"/>
+        <element name="CDMeshDevice" positionX="-63" positionY="-18" width="128" height="163"/>
+        <element name="CDMeshGroup" positionX="-63" positionY="45" width="128" height="148"/>
+        <element name="CDMeshPlace" positionX="-54" positionY="54" width="128" height="178"/>
+    </elements>
+</model>

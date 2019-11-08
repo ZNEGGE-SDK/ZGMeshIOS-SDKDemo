@@ -1,0 +1,24 @@
+/* 
+  File.strings
+  ZGMeshIOS-SDKDemo
+
+  Created by 文 on 2019/11/7.
+  Copyright © 2019 文. All rights reserved.
+*/
+"OK" = "OK";
+"str_Yes" = "YES";
+"Cancel" = "Cancel";
+"Back" = "Back";
+"Btn_Next" = "Next";
+"Try_Again" = "Try again";
+"MaxMeshDeviceCount_d" = "The maximum number of devices in the current location has exceeded %d, and no more devices can be added.";
+"Str_DidFindNewDevice" = "Searching new device(s)...\nHave added {DeviceNum} device(s)";
+"LIST_Connect_Device" = "Add New Devices";
+"Str_FindNewDevice" = "Searching new device(s)….";
+"ScanFailed_BLE_TurnOff_Title" = "The phone's Bluetooth is turned off!";
+"ScanFailed_BLE_TurnOff_Content" = "Please open the phone Bluetooth, and then try again.";
+"TIMER_Load_timer_failed_try_again" = "Retry now?";
+"ScanFailed_Code_Content" = "Please try the following：\n1. Make sure you're within range. Ideally closer than 50 feet\n2. Try restarting device\n3. Try restarting your phone\n5. Do a factory reset device";
+"ScanFailed_Code_Title" = "Add new device failed (Code:{ErrorCode})";
+"ScanFailed_forNoDevice_Content" = "Please try the following:\n1.Enable Bluetooth on phone.\n2. Ensure device is powered on.\n3. Ensure the device is in 'discovery mode' (light flashes). If not, please do a factory reset (refer to Help section).\n4. Try restarting device.\n5. Try restarting your phone.\n6. Do a factory reset device";
+"ScanFailed_forNoDevice_Title" = "Didn't find any new device";

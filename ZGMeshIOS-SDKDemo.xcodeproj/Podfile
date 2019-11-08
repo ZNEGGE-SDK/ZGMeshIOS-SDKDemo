@@ -1,0 +1,6 @@
+platform :ios, '9.0'
+target 'ZGMeshIOS_SDKDemo' do
+project 'ZGMeshIOS_SDKDemo/ZGMeshIOS_SDKDemo.project'
+pod 'CocoaLumberjack'
+end
+
